@@ -1,0 +1,32 @@
+name: novadrive_hmi
+description: "NovaDrive Autonomous Vehicle Digital Cockpit HMI"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.10.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # --- Haberlesme ve Veri Yonetimi ---
+  web_socket_channel: ^3.0.1
+  provider: ^6.1.1
+  
+  # --- UI ve Gosterge Paketleri ---
+  syncfusion_flutter_gauges: ^21.1.35
+  google_fonts: ^6.2.1
+  lottie: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/novadrive_team_logo.jpg
